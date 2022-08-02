@@ -19,7 +19,11 @@ describe('Employee Remover', () => {
       const handler = new EmployeeActivator(employeeRepository);
 
       const params = {
+<<<<<<< HEAD
         employeeId: 101, //change this to 100 to make the test pass
+=======
+        employeeId: 100, //change this to 100 to make the test pass
+>>>>>>> circleci-project-setup
         isActive: false,
       };
 
